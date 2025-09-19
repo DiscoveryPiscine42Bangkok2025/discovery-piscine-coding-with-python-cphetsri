@@ -5,10 +5,10 @@ def main():
     newarr = []
 
     for i in orgarr:
-        newarr.append(i + 2)
-    print(f"Original array: {orgarr}")
-    print(f"New array: {newarr}")
+        if i > 5:
+            newarr.append(i + 2)
+
+    print(orgarr)
+    print(newarr)
     
 main()
-
-
